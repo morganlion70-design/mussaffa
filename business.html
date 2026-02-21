@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musaffa</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+  <nav class="navbar">
+    <!-- Left: Logo -->
+     <div class="menu-links">
+        <img class="icon-menu" src="images/iconMenu.svg" alt="">
+      <div class="logo">
+        <a id="logo-black" href="index.html"><img src="images/musaffa-logo-black.png" alt=""></a>
+        <a id="logo-white" href="index.html"><img src="images/musaffa-logo-white.webp" alt=""></a>
+      </div>
+     </div>
+
+    <!-- Center: Navigation + Search -->
+    <div class="nav-center">
+      <ul class="nav-links">
+        <li><a href="business.html">For Business</a></li>
+        <li id="nav-page">
+          About Us <i class="fas fa-caret-down"></i>
+          <div class="dropdown">
+            <a href="about-us.html">About Us</a>
+            <a href="screen-methodology.html">Screen Methodology</a>
+            <a href="ambassador-program.html">Ambassador Program</a>
+          </div>
+        </li>
+        <li><a href="investor-relations.html">Investor Relations</a></li>
+
+      </ul>
+
+      <!-- <div class="search-bar">
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder="Search...">
+      </div> -->
+    </div>
+
+    <div class="actions">
+          <a href="#" class="btn-discount"> <img src="images/premium-gold.svg" alt="">Get 33% off</a>
+          <a href="https://musaffa.pro/invest/halal/login" target="_blank" class="btn-login">Sign in</a>
+          <a href="https://musaffa.pro/invest/halal/register" target="_blank" class="btn-logout">Free Sign Up</a>
+    </div>
+  </nav>
+
+<main class="business-page">
+  <section class="hero">
+    <img src="images/hero-banner.png" alt="hero-banner" id="hero-banner-img">
+
+    <div class="hero-container">
+      <div class="hero-start-pill">
+        <span>Start your halal investment journey!</span>
+      </div>
+
+      <h1>
+        Unlock the 
+        <br id="desktop-break">
+        <span style="color: #1CAD50;">Shariah Universe</span>
+        <br id="mobile-break">
+        Like Never Before
+      </h1>
+
+      <p class="lead">
+         Tap into the USD 4 trillion global Islamic finance market with Musaffa. With access to Shariah Compliance of over 
+         120,000 stocks &amp; ETFs across 70+ global exchanges, we provide the most comprehensive screening solutions to help 
+         you capitalize on halal investment opportunities. 
+      </p>
+
+      <div class="btn">
+          <button class="gradient-btn">
+            <img src="images/play-button.png" alt="" width="20px">
+            <span>request a demo</span>
+          </button>
+          <button class="gradient-border-btn">
+            <img src="images/calendar.png" alt="">
+            <span>schedule a call today</span>
+          </button>
+      </div>
+
+      <div class="hero-number-container">
+          <div class="hero-number-item">
+            <img src="images/hero-icon-1.png" alt="">
+            <div class="text">
+              <b>120000+</b>
+              <span>Covered Stocks & ETFs</span>
+            </div>
+          </div>
+
+          <div class="hero-number-item">
+            <img src="images/hero-icon-2.png" alt="">
+            <div class="text">
+              <b>70+</b>
+              <span>Global Exchanges</span>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="key-features">
+    <div class="container">
+      <div class="key-features-content">
+        <h2 id="business-page-header">Key Features</h2>
+
+        <div class="key-features-grid">
+          <div class="key-features-card">
+            <img src="images/key-feature-1.png" alt="">
+            <h6>Scalable for Growth</h6>
+            <p>
+              Musaffa’s API is designed to grow with your business, providing a flexible, scalable solution 
+              that caters to both small startups and large enterprises. As your needs expand, Musaffa adapts 
+              seamlessly, offering tailored solutions that evolve alongside your company.
+            </p>
+          </div>
+
+          <div class="key-features-card">
+            <img src="images/key-feature-2.png" alt="">
+            <h6>Seamless API Integration</h6>
+            <p>
+              Musaffa's API <b>integrates seamlessly with your existing systems</b>, offering flexible data delivery 
+              through APIs and WebSockets. It's a fast, secure solution and can be tailored to your specific needs.
+            </p>
+          </div>
+
+          <div class="key-features-card">
+            <img src="images/key-feature-3.png" alt="">
+            <h6>Customizable Screening Criteria</h6>
+            <p>
+              Our platform offers a wide range of Shariah-compliant screening options, 
+              ensuring that your investment portfolio aligns with Islamic principles.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="markets">
+    <div class="container">
+      <div class="markets-content">
+        <h2 id="business-page-header">Covered Markets</h2>
+
+        <div class="card-container">
+          <div class="country-card">
+            <img class="rounded-circle" src="countries/us.svg" alt="United States" width="40px" height="40px">
+            <div class="country-info">
+              <h6>United States</h6>
+              <p> NYSE, NASDAQ </p>
+            </div>
+          </div>
+
+          <div class="country-card">
+            <img class="rounded-circle" src="countries/au.svg" alt="Australia" width="40px" height="40px">
+            <div class="country-info">
+              <h6>Australia</h6>
+              <p>ASX, ASX - ALL MARKETS</p>
+            </div>
+          </div>
+
+          <div class="country-card">
+            <img class="rounded-circle" src="countries/bh.svg" alt="Bahrain" width="40px" height="40px">
+            <div class="country-info">
+              <h6>Bahrain</h6>
+              <p>BSE</p>
+            </div>
+          </div>
+
+          <div class="country-card">
+            <img class="rounded-circle" src="countries/bd.svg" alt="Bangladesh" width="40px" height="40px">
+            <div class="country-info">
+              <h6>Bangladesh</h6>
+              <p>DSE</p>
+            </div>
+          </div>
+
+          <div class="country-card">
+            <img class="rounded-circle" src="countries/ca.svg" alt="Canada" width="40px" height="40px">
+            <div class="country-info">
+              <h6>Canada</h6>
+              <p>CNSX, NEO, TSX, TSXV</p>
+            </div>
+          </div>
+
+          <div class="country-card">
+            <img class="rounded-circle" src="countries/eg.svg" alt="egypt" width="40px" height="40px">
+            <div class="country-info">
+              <h6>Egypt</h6>
+              <p> EGX </p>
+            </div>
+          </div>
+
+          <div class="country-card">
+            <img class="rounded-circle" src="countries/fr.svg" alt="france" width="40px" height="40px">
+            <div class="country-info">
+              <h6>France</h6>
+              <p> XPAR </p>
+            </div>
+          </div>
+
+          <div class="country-card">
+            <img class="rounded-circle" src="countries/de.svg" alt="Germany" width="40px" height="40px">
+            <div class="country-info">
+              <h6>Germany</h6>
+              <p>BE, XETRA, BD, XETR, HAM, MUN, SWB, HAN</p>
+            </div>
+          </div>
+
+          <div class="country-card">
+            <img class="rounded-circle" src="countries/in.svg" alt="India" width="40px" height="40px">
+            <div class="country-info">
+              <h6>India</h6>
+              <p></p>
+            </div>
+          </div>
+
+          <div class="country-card">
+            <img class="rounded-circle" src="countries/id.svg" alt="Indonesia" width="40px" height="40px">
+            <div class="country-info">
+              <h6>Indonesia</h6>
+              <p>IDX</p>
+            </div>
+          </div>
+
+          <div class="country-card">
+            <img class="rounded-circle" src="countries/my.svg" alt="Malaysia" width="40px" height="40px">
+            <div class="country-info">
+              <h6>Malaysia</h6>
+              <p>BURSA</p>
+            </div>
+          </div> <br>
+
+          <div class="country-card">
+            <img class="rounded-circle" src="countries/nl.svg" alt="Netherlands" width="40px" height="40px">
+            <div class="country-info">
+              <h6>Netherlands</h6>
+              <p>AMS</p>
+            </div>
+          </div>
+
+          <div class="country-card">
+            <img class="rounded-circle" src="countries/qa.svg" alt="Qatar" width="40px" height="40px">
+            <div class="country-info">
+              <h6>Qatar</h6>
+              <p>QE</p>
+            </div>
+          </div>
+
+          <div class="country-card">
+            <img class="rounded-circle" src="countries/sa.svg" alt="Saudi Arabia" width="40px" height="40px">
+            <div class="country-info">
+              <h6>Saudi Arabia</h6>
+              <p>TASI</p>
+            </div>
+          </div>
+
+          <div class="country-card">
+            <img class="rounded-circle" src="countries/sg.svg" alt="Singapore" width="40px" height="40px">
+            <div class="country-info">
+              <h6>Singapore</h6>
+              <p>SGX</p>
+            </div>
+          </div>
+
+          <div class="country-card">
+            <img class="rounded-circle" src="countries/es.svg" alt="Spain" width="40px" height="40px">
+            <div class="country-info">
+              <h6>Spain</h6>
+              <p>BME</p>
+            </div>
+          </div>
+
+          <div class="country-card">
+            <img class="rounded-circle" src="countries/tr.svg" alt="Turkey" width="40px" height="40px">
+            <div class="country-info">
+              <h6>Turkey</h6>
+              <p>BIST</p>
+            </div>
+          </div>
+
+          <div class="country-card">
+            <img class="rounded-circle" src="countries/ae.svg" alt="United Arab Emirates" width="40px" height="40px">
+            <div class="country-info">
+              <h6>United Arab Emirates</h6>
+              <p>ADX, DFM</p>
+            </div>
+          </div>
+
+          <div class="country-card">
+            <img class="rounded-circle" src="countries/gb.svg" alt="United Kingdom" width="40px" height="40px">
+            <div class="country-info">
+              <h6>United Kingdom</h6>
+              <p>LSE</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="transparent-packages">
+    <div class="transparent-packages-content">
+      <h2 id="business-page-header">Transparent Packages</h2>
+      <p>
+        Our packages are tailored to meet the needs of businesses <br>
+at various stages of growth, offering scalable solutions that adapt to your specific requirements.</p>
+      <div class="buttons">
+        <button class="transparent-packages-btn gradient-btn">STOCKs</button>
+        <button class="transparent-packages-btn border-btn">ETFs</button>
+      </div>
+    </div>
+
+    <div class="packages-container">
+      <article class="package-card-container first card">
+        <header class="package-header">  
+          <span>MUSAFFA</span>
+          <h4>Starter</h4>
+        </header>
+
+        <ul class="package-feature-list">
+          <li class="feature-list-item">
+            <img src="images/tick-icon.png" alt="">
+            <span>Access to any ONE global market of your choice (Excluding US, UK, and Canada)</span>
+          </li>
+          <li class="feature-list-item">
+            <img src="images/tick-icon.png" alt="">
+            <span>Shariah compliance rankings for all Halal stocks based on proprietary methodology</span>
+          </li>
+          <li class="feature-list-item">
+            <img src="images/tick-icon.png" alt="">
+            <span>Webhooks notification on compliance status changes</span>
+          </li>
+          <li class="feature-list-item border-none" style="border: none;">
+            <img src="images/tick-icon.png" alt="">
+            <span>10,000 API calls per month</span>
+          </li>
+        </ul>
+      </article>
+
+      <article class="package-card-container">
+        <header class="package-header pro">  
+          <span>MUSAFFA</span>
+          <h4>Pro</h4>
+        </header>
+
+        <ul class="package-feature-list">
+          <li class="feature-list-item">
+            <img src="images/tick-icon.png" alt="">
+            <span>Access to any THREE global markets of your choice</span>
+          </li>
+          <li class="feature-list-item">
+            <img src="images/tick-icon.png" alt="">
+            <span>Detailed compliance screening results for all stocks</span>
+          </li>
+          <li class="feature-list-item">
+            <img src="images/tick-icon.png" alt="">
+            <span>Shariah compliance rankings for all Halal stocks based on proprietary methodology</span>
+          </li>
+          <li class="feature-list-item border-none" style="border: none;">
+            <img src="images/tick-icon.png" alt="">
+            <span>10,000 API calls per month</span>
+          </li>
+        </ul>
+      </article>
+
+      <article class="package-card-container">
+        <header class="package-header premium">  
+          <span>MUSAFFA</span>
+          <h4>Premium</h4>
+        </header>
+
+        <ul class="package-feature-list">
+          <li class="feature-list-item">
+            <img src="images/tick-icon.png" alt="">
+            <span>Access to ALL covered markets and exchanges</span>
+          </li>
+          <li class="feature-list-item">
+            <img src="images/tick-icon.png" alt="">
+            <span>Detailed compliance screening results for all stocks</span>
+          </li>
+          <li class="feature-list-item">
+            <img src="images/tick-icon.png" alt="">
+            <span>Shariah compliance rankings for all Halal stocks based on proprietary methodology</span>
+          </li>
+          <li class="feature-list-item">
+            <img src="images/tick-icon.png" alt="">
+            <span>Unlimited API calls per month</span>
+          </li>
+          </li>
+          <li class="feature-list-item">
+            <img src="images/tick-icon.png" alt="">
+            <span>Zakat calculator</span>
+          </li>
+          <li class="feature-list-item" style="border: none;">
+            <img src="images/tick-icon.png" alt="">
+            <span>Purification calculator</span>
+          </li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section class="consultation">
+    <div class="container">
+      <div class="consultation-content">
+        <h2>Looking for a custom solution?</h2>
+        <p>Get everything in premium & build a tailored solution for your team.</p>
+        <button class="consultation-btn">
+          <img src="images/calendar-white.png" alt="">
+          <span>schedule a call</span>
+        </button>
+        <a href="#">Request A Demo</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="partners-testimonials">
+    <div class="container">
+      <h2 id="business-page-header">What our users are saying...</h2>
+
+      <div class="business_testimonial">
+        <img src="images/business_testimonial.jpeg" alt="">
+        <img src="images/business_testimonial-2.jpeg" alt="">
+      </div>
+
+      <div class="business_testimonial-mobile">
+        <img src="images/testimonial-img_1.jpeg" alt="">
+        <img src="images/testimonial-img_2.jpeg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="container">
+      <div class="cta-content">
+        <h2 id="business-page-header">Get Started Today</h2>
+        <p>
+          Join the ranks of businesses that trust Musaffa for their Shariah-compliant investments. Request a demo <br>
+today and see how Musaffa's API can help you lead in your respective industry.
+        </p>
+
+        <div class="btn">
+          <button class="demo">
+            <img src="images/play-button.png" alt="">
+            <span>request a demo</span>
+          </button>
+          <button class="schedule">
+            <img src="images/calendar.png" alt="">
+            <span>schedule a call today</span>
+          </button>
+      </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+<footer>
+      <section class="container">
+        <nav class="footer">
+          <div class="footer-col quick-links">
+            <h6 class="nav-heading">Quick Links</h6>
+            <ul role="list" class="links-list">
+              <li><a href="#">Stock Screener</a></li>
+              <li><a href="#">ETF Screener</a></li>
+              <li><a href="#">Super Investors</a></li>
+              <li><a href="#">Purification Calculator</a></li>
+              <li><a href="#">Zakat Calculator</a></li>
+              <li><a href="#">Musaffa Academy</a></li>
+              <li><a href="#">User Collections</a></li>
+              <li><a href="#">Covered Countries</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h6 class="nav-heading">Company</h6>
+            <ul role="list" class="links-list">
+              <li><a href="about-us.html">About Us</a></li>
+              <li><a href="business.html">For Business</a></li>
+              <li><a href="ambassador-program.html">Ambassador Program</a></li>
+              <li><a href="screen-methodology.html">Screening Methodology</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h6 class="nav-heading">Account</h6>
+            <ul role="list" class="links-list">
+              <li><a href="#">Login</a></li>
+              <li><a href="#">My Portfolio</a></li>
+              <li><a href="#">My Watchlist</a></li>
+              <li><a href="#">Pricing Plans</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h6 class="nav-heading">Legal</h6>
+            <ul role="list" class="links-list">
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">General Disclaimer</a></li>
+              <li><a href="#">Brand Guidelines</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-col">
+            <h6 class="nav-heading">Install Our App</h6>
+            <p class="scan-text">Scan QR code to install app</p>
+            <div class="store-badges">
+              <div class="qr-code">
+                <img src="images/qr-code.png" id="display-none" alt="qr-code" class="qr-code">
+              </div>
+
+              <div class="app-store-row">
+                <a href="#" target="_blank">
+                  <img src="images/footer-ios-app.svg" alt="app-store-badge" class="img-fluid">
+                </a>
+
+                <a href="#" target="_blank">
+                  <img src="images/footer-gplay.svg" alt="play-store-badge" class="img-fluid">
+                </a>
+
+                <a href="#" target="_blank">
+                  <img src="images/footer-chrome-ext.svg" id="display-none" alt="Google Chrome Extension" class="img-fluid">
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="footer-para">
+          <p>
+            The term halal, when applied to investments, is subject to multiple interpretations. We define halal investments as investments permitted by Shariah law. Shariah-compliant investments are investment products governed by the requirements of Shariah law and the principles of the Islamic religion. <br><br>
+            #1 Website: Per web analytics of Similarweb, Semrush, and Similar Sites in comparison to competitors for the year of 2024.
+          </p>
+        </div>
+
+        <div class="copyrights-wrapper">
+          <div class="copyrights-text">
+            <a href="#">
+              <img src="images/dmca-badge.png" alt="" class="img-fluid">
+            </a>
+            <p> &#169; 2025 Musaffa | All rights reserved.</p>
+          </div>
+
+          <ul class="social-icons" role="list">
+            <li>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+
+    <div id="sidebar" class="sidebar_menu">
+      <button class="btn-menu-toggle-mobile" onclick="hideMenu()">
+        <img src="images/iconMenuClose.svg" alt="" class="icon-menu">
+      </button>
+  
+      <a href="index.html" class="sidebar-logo">
+        <img src="images/musaffa-logo-white.webp" class="icon-menu" alt="">
+      </a>
+    
+      <ul class="sidebar-navigation">
+        <div class="menu-group-mobile">
+          <li class="nav-item">
+            <a href="#" style="color: #1CAD50;" class="nav-link">
+              <img src="images/premium-gold.svg" alt="Icon">
+              <span>Get 33% off</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="business.html" class="nav-link">For Business</a>
+          </li>
+    
+          <li class="nav-item">
+            <a href="about-us.html" class="nav-link">About Us</a>
+          </li>
+          
+          <li class="nav-item">
+            <a href="screen-methodology.html" class="nav-link">Screen Methodology</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="ambassador-program.html" class="nav-link">Ambassador Program</a>
+          </li>
+    
+          <li class="nav-item">
+            <a href="investor-relations.html" class="nav-link">Investor Relations</a>
+          </li>
+        </div>
+      </ul>        
+    
+      <div class="bottom-line"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper(".mySwiper", {
+            loop: true,
+            autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+            },
+            pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            },
+            navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+            },
+        });
+    </script> -->
+    <script>
+      const showBtn = document.querySelector('.icon-menu');
+      const sideBar = document.querySelector('.sidebar_menu');
+      const hideBtn = document.querySelector('.btn-menu-toggle-mobile')
+
+      showBtn.addEventListener('click', showMenu)
+
+      function showMenu() {
+        showBtn.classList.toggle('active');
+        sideBar.classList.toggle('active');
+      }
+
+      hideBtn.addEventListener('click', hideMenu)
+
+      function hideMenu(){
+        sideBar.style.left = "-100%";
+      }
+    </script>
+</body>
+</html>
